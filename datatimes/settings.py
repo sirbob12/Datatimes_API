@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-&z9q)pci-0*g58-l)t^b@wbzg+dgnf_nppi9(+_!ng(#q_ci61
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['datatimes-api.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','datatimes-api.onrender.com']
 
 
 # Application definition
