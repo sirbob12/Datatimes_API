@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+
+
+# Django stuff:
+*.log
+db.sqlite3
+media/
+
+# VSCode
+.vscode/
+
+# Ignore node_modules (if using Node.js or React frontend)
+node_modules/
+
+# Ignore environment variables and secrets
+.env
+
+# Ignore static files
+staticfiles/
