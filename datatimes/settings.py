@@ -21,10 +21,7 @@ from cloudinary.utils import cloudinary_url
 
 
 
-INSTALLED_APPS += [
-    'cloudinary',
-    'cloudinary_storage',
-]
+
 
 CLOUDINARY_STORAGE = {
      'CLOUD_NAME': os.getenv('CLOUDINARY_CLOUD_NAME'),
@@ -61,6 +58,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'blog',
     'corsheaders',
+    'cloudinary',
+    'cloudinary_storage'
 ]
 
 MIDDLEWARE = [
